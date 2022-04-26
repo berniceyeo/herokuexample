@@ -1,6 +1,7 @@
 import express from 'express';
 
-const PORT = process.env.PORT
+//port
+const PORT = process.env.PORT || 3004;
 
 // Initialise Express
 const app = express();
